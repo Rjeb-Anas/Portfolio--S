@@ -92,7 +92,7 @@ const Header = () => {
                                 : "hidden "
                             }`}
                     >
-                        <a href="#Cursus" className="w-full text-center py-2 hover:bg-white/10">About Me</a>
+                        <a href="#Cursus" className="w-full text-center py-2 hover:bg-white/10">À propos</a>
                         <a href="" className="w-full text-center py-2 hover:bg-white/10">Contact</a>
                     </div>
                 </div>

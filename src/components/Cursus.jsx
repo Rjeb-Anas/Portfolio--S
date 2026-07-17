@@ -9,7 +9,7 @@ const Cursus = () => {
       id="Cursus"
       className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-15 py-16 min-h-dvh"
     >
-      <section className="flex flex-col gap-8 py-2">
+      <section className="flex flex-col gap-8 py-2 relative">
 
         <div className="space-y-3">
           <span className="text-[clamp(0.75rem,2vw,1rem)] font-semibold uppercase tracking-widest text-blue-500">
@@ -25,8 +25,7 @@ const Cursus = () => {
           </p>
         </div>
         <hr className="border-slate-800" />
-        <div className="mx-auto shrink-0 h-[55vh]   w-full min-h-100
-    max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="w-full h-auto flex flex-col gap-5  ">
             <article className="w-full  p-3  flex flex-row max-md:flex-col justify-between rounded-2xl border gap-3
              border-blue-400 hover:border-blue-500">
