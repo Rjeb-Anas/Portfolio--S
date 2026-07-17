@@ -38,15 +38,82 @@ Error generating stack: `+e.message+`
                  justify-center`,children:[(0,b.jsx)(`h1`,{className:`text-[clamp(2rem,5vw,3rem)] py-2 w-full text-center font-bold`,children:`Anass Rjeb`}),(0,b.jsx)(`h2`,{className:`text-[clamp(1rem,2.5vw,1.5rem)] py-2 w-full text-center`,children:`Front-End Developer`}),(0,b.jsx)(`p`,{className:`text-[clamp(0.9rem,1.5vw,1rem)] py-2 w-full text-center leading-relaxed`,children:`Computer Science student and Front-End Developer passionate about creating responsive, modern, and accessible web applications using React, Tailwind CSS, and JavaScript.`}),(0,b.jsxs)(`div`,{className:`w-full flex py-3 max-md:flex-col\r
                     items-center justify-center`,children:[(0,b.jsx)(`a`,{href:``,className:`py-3 px-10\r
                         max-md:py-2 bg-cyan-950 rounded-full text-white\r
-                        dark:hover:bg-white/10`,children:`Resume`}),(0,b.jsx)(`div`,{className:`w-1/2 h-auto py-3 flex items-center justify-center gap-4`})]})]}),(0,b.jsx)(`div`,{className:`md:w-1/2 max-md:h-1/2 flex items-center justify-center `,children:(0,b.jsx)(`div`,{className:`md:w-[30vw] max-md:w-[60vw] h-40 \r
+                        dark:hover:bg-white/10`,children:`Resume`}),(0,b.jsx)(`div`,{className:`w-1/2 h-auto py-3 flex items-center justify-center gap-4`})]})]}),(0,b.jsx)(`div`,{className:`md:w-1/2 max-md:h-1/2 flex items-center justify-center `,children:(0,b.jsx)(`a`,{href:``,className:`md:w-[30vw] max-md:w-[60vw] h-40 \r
                     md:h-60 \r
-                    rounded-xl`,children:(0,b.jsx)(`img`,{src:ie,alt:`Portfolio`,className:`size-full rounded-xl`})})}),(0,b.jsx)(`a`,{href:`#Cursus`,className:`w-auto h-auto   border rounded-full absolute bottom-0  left-1/2 -translate-x-1/2`,children:(0,b.jsx)(`button`,{class:`cursor-pointer relative after:content-['scroll_to_bottom']\r
+                    rounded-xl hover:scale-95 transition-all`,children:(0,b.jsx)(`img`,{src:ie,alt:`Portfolio`,className:`size-full rounded-xl shadow-[0_0_7px_black]\r
+                dark:shadow-[0_0_7px_white]`})})}),(0,b.jsx)(`a`,{href:`#Cursus`,className:`w-auto h-auto   border rounded-full absolute bottom-0  left-1/2 -translate-x-1/2`,children:(0,b.jsx)(`button`,{class:`cursor-pointer relative after:content-['scroll_to_bottom']\r
                          after:text-white after:absolute after:text-nowrap after:scale-0 \r
                          hover:after:scale-100 after:duration-200 w-10 h-10 rounded-full  border-4 border-sky-200 bg-black pointer \r
                          flex items-center justify-center duration-300 hover:rounded-[50px] hover:w-36 group/button overflow-hidden active:scale-90`,children:(0,b.jsx)(`svg`,{class:`w-2.5 fill-white delay-50 duration-200 group-hover/button:-translate-y-12 rotate-180`,viewBox:`0 0 384 512`,children:(0,b.jsx)(`path`,{d:`M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 \r
                                 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z`})})})})]})}),oe=()=>(0,b.jsx)(b.Fragment,{children:(0,b.jsx)(`main`,{id:`Cursus`,className:`mx-auto min-h-dvh  w-full \r
-    max-w-7xl px-4 sm:px-6 lg:px-8`,children:(0,b.jsx)(`section`,{className:`flex flex-col items-center gap-6 py-12 md:flex-row \r
-            justify-center`})})});function se(){return(0,b.jsx)(b.Fragment,{children:(0,b.jsx)(`main`,{className:`min-h-dvh w-full overflow-x-hidden text-black dark:text-white min-w-75
+    max-w-7xl px-4 sm:px-6 lg:px-15`,children:(0,b.jsxs)(`section`,{className:`flex flex-col justify center gap-6 py-12 \r
+            `,children:[(0,b.jsx)(`b`,{className:`text-lg text-blue-500`,children:`Cursus`}),(0,b.jsx)(`h1`,{className:`text-4xl max-md:text-xl`,children:`My Academic Journey`}),(0,b.jsx)(`p`,{className:`w-[30%] max-md:w-[70%]`,children:`My education path that shaped my skills and passion for computer science and thechnology.`}),(0,b.jsx)(`hr`,{className:`max-md:hidden`}),(0,b.jsxs)(`div`,{className:`\r
+        flex flex-col gap-5\r
+        sm:flex-row sm:items-start\r
+        rounded-2xl\r
+        border border-slate-200 dark:border-slate-800\r
+        bg-white dark:bg-[#060B16]\r
+        p-4 sm:p-5\r
+        shadow-lg shadow-slate-200/40\r
+        dark:shadow-black/30\r
+        transition-all duration-300\r
+        hover:border-blue-500/30\r
+        hover:shadow-blue-500/10\r
+      `,children:[(0,b.jsxs)(`div`,{className:`flex items-center justify-between sm:block`,children:[(0,b.jsx)(`div`,{className:`\r
+            flex h-16 w-16 sm:h-20 sm:w-20\r
+            items-center justify-center\r
+            rounded-2xl\r
+            bg-gradient-to-br\r
+            from-blue-500\r
+            to-blue-700\r
+          `}),(0,b.jsx)(`span`,{className:`\r
+            sm:hidden\r
+            rounded-xl\r
+            bg-blue-100 dark:bg-blue-900/30\r
+            px-3 py-1\r
+            text-xs font-semibold\r
+            text-blue-600 dark:text-blue-400\r
+          `,children:`2023 - 2024`})]}),(0,b.jsxs)(`div`,{className:`flex-1`,children:[(0,b.jsxs)(`div`,{className:`flex items-start justify-between gap-4`,children:[(0,b.jsxs)(`div`,{children:[(0,b.jsx)(`h3`,{className:`text-xl sm:text-2xl font-bold text-slate-900 dark:text-white`,children:`Baccalauréat SPC`}),(0,b.jsx)(`p`,{className:`mt-1 text-sm sm:text-base text-slate-600 dark:text-slate-300`,children:`Lycée Mazarin – Science Physique`})]}),(0,b.jsx)(`span`,{className:`\r
+              hidden sm:block\r
+              rounded-xl\r
+              bg-blue-100 dark:bg-blue-900/30\r
+              px-4 py-2\r
+              text-sm font-semibold\r
+              text-blue-600 dark:text-blue-400\r
+            `,children:`2023 – 2024`})]}),(0,b.jsx)(`p`,{className:`mt-4 text-sm sm:text-base leading-7 text-slate-600 dark:text-slate-400`,children:`Obtention du baccalauréat en Sciences Physiques et Chimiques avec mention bien. Cette formation m'a permis de développer une solide base scientifique et analytique.`})]})]}),(0,b.jsxs)(`div`,{className:`\r
+        flex flex-col gap-5\r
+        sm:flex-row sm:items-start\r
+        rounded-2xl\r
+        border border-slate-200 dark:border-slate-800\r
+        bg-white dark:bg-[#060B16]\r
+        p-4 sm:p-5\r
+        shadow-lg shadow-slate-200/40\r
+        dark:shadow-black/30\r
+        transition-all duration-300\r
+        hover:border-blue-500/30\r
+        hover:shadow-blue-500/10\r
+      `,children:[(0,b.jsxs)(`div`,{className:`flex items-center justify-between sm:block`,children:[(0,b.jsx)(`div`,{className:`\r
+            flex h-16 w-16 sm:h-20 sm:w-20\r
+            items-center justify-center\r
+            rounded-2xl\r
+            bg-gradient-to-br\r
+            from-blue-500\r
+            to-blue-700\r
+          `}),(0,b.jsx)(`span`,{className:`\r
+            sm:hidden\r
+            rounded-xl\r
+            bg-blue-100 dark:bg-blue-900/30\r
+            px-3 py-1\r
+            text-xs font-semibold\r
+            text-blue-600 dark:text-blue-400\r
+          `,children:`2023 - 2024`})]}),(0,b.jsxs)(`div`,{className:`flex-1`,children:[(0,b.jsxs)(`div`,{className:`flex items-start justify-between gap-4`,children:[(0,b.jsxs)(`div`,{children:[(0,b.jsx)(`h3`,{className:`text-xl sm:text-2xl font-bold text-slate-900 dark:text-white`,children:`Baccalauréat SPC`}),(0,b.jsx)(`p`,{className:`mt-1 text-sm sm:text-base text-slate-600 dark:text-slate-300`,children:`Lycée Mazarin – Science Physique`})]}),(0,b.jsx)(`span`,{className:`\r
+              hidden sm:block\r
+              rounded-xl\r
+              bg-blue-100 dark:bg-blue-900/30\r
+              px-4 py-2\r
+              text-sm font-semibold\r
+              text-blue-600 dark:text-blue-400\r
+            `,children:`2023 – 2024`})]}),(0,b.jsx)(`p`,{className:`mt-4 text-sm sm:text-base leading-7 text-slate-600 dark:text-slate-400`,children:`Obtention du baccalauréat en Sciences Physiques et Chimiques avec mention bien. Cette formation m'a permis de développer une solide base scientifique et analytique.`})]})]})]})})});function se(){return(0,b.jsx)(b.Fragment,{children:(0,b.jsx)(`main`,{className:`min-h-dvh w-full overflow-x-hidden text-black dark:text-white min-w-75
       bg-linear-to-b from-[#F8FAFC] via-[#F3F6FB] to-[#EDF2F7]     transition-colors duration-300
     dark:from-[#000309] dark:via-[#00050D] dark:to-[#000712]  animate-load-fast `,children:(0,b.jsxs)(`div`,{className:`mx-auto flex min-h-dvh w-full max-w-7xl flex-col md:border-l-cyan-950 
        md:border-r-cyan-950 
