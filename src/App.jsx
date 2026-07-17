@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import Header from '../src/components/Header'
 import Home from '../src/components/Home'
+import About from './components/About'
 import Cursus from './components/Cursus'
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
         md:border-l-4 md:border-r-4">
           <Header></Header>
           <Home></Home>
+          <About></About>
           <Cursus></Cursus>
         </div>
       </main>
