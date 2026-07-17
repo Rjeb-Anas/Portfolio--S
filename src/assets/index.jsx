@@ -5,7 +5,6 @@ import assignment from "./assignment.svg";
 import call from "./call.svg";
 import close from "./close.svg";
 
-
 export {
     arrowSvg,
     homeSvg,
