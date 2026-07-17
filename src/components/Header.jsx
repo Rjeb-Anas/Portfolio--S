@@ -58,7 +58,7 @@ const Header = () => {
                         <img src={arrowSvg} alt="" className={`size-5 ml-2 ${isOpen ? "animate-open-arrow" : ""} `} />
                         <div className={`absolute flex-col w-full h-auto py-3 bg-cyan-950 top-full z-50 rounded-lg shadow-lg shadow-black
                                 left-0 ${isOpen ? "flex animate-menu-open" : "hidden"} text-[clamp(0.5rem,1vw,0.75rem)`}>
-                            <a href="#About" className="py-2 hover:bg-white/10 overflow-hidden line-clamp-1 ">About Me</a>
+                            <a href="#About" className="py-2 hover:bg-white/10 overflow-hidden line-clamp-1 ">About</a>
                             <a href="#Cursus" className="py-2 hover:bg-white/10 overflow-hidden line-clamp-1 ">Cursus</a>
                             <a href="" className="py-2 hover:bg-white/10 overflow-hidden line-clamp-1 ">Projects</a>
                         </div>
