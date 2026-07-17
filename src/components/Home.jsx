@@ -1,4 +1,4 @@
-
+import portfolio from "../assets/portfolio.png";
 const Home = () => {
     return (
         <main className="mx-auto min-h-[calc(100dvh-6.25rem)]  w-full
@@ -23,16 +23,19 @@ const Home = () => {
                     <div className="w-full flex py-3 
                     items-center justify-center">
                         <a href="" className="py-3 px-10
-                        max-md:py-1 bg-red-500 rounded-full
+                        max-md:py-2 bg-red-500 rounded-full
                         hover:bg-red-400">Resume</a>
                     </div>
                 </div>
                 <div className="md:w-1/2 max-md:h-1/2 flex items-center justify-center ">
                     <div className="md:w-[30vw] max-md:w-[60vw] h-40 
                     md:h-60 
-                    border 
                     rounded-xl">
-                        
+                        <img
+                        src={portfolio}
+                        alt="Portfolio"
+                        className="size-full rounded-xl"
+                        />
                     </div>
                 </div>
                 <a href="#Cursus" className='w-auto h-auto   border rounded-full absolute bottom-0  left-1/2 -translate-x-1/2'>
