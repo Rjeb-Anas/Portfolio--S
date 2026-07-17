@@ -25,25 +25,10 @@ const Home = () => {
                     <div className="w-full flex py-3 max-md:flex-col
                     items-center justify-center">
                         <a href="" className="py-3 px-10
-                        max-md:py-2 bg-cyan-950 rounded-full
-                        hover:bg-white/10">Resume</a>
-                        <div className="w-1/2 
-                        h-auto py-3 flex items-center gap-4 justify-center">
-                            <a href="https://github.com/Rjeb-Anas" target="_blank" className="size-10 rounded-full">
-                                <svg  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"
-                                    className="size-full dark:fill-white">
-                                    <path d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z" /></svg>
-                            </a>
-                            <a href="https://github.com/Rjeb-Anas" target="_blank" className="size-10 rounded-xl">
-                                <svg  version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" 
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    viewBox="0 0 32 32" xml:space="preserve" className="size-full dark:fill-white">
-                                    <path d="M23,0H9C4,0,0,4,0,9v14c0,5,4,9,9,9h14c5,0,9-4,9-9V9C32,4,28,0,23,0z M12,25c0,0.6-0.4,1-1,1H7c-0.6,0-1-0.4-1-1V13
-	c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V25z M9,11c-1.7,0-3-1.3-3-3s1.3-3,3-3s3,1.3,3,3S10.7,11,9,11z M26,25c0,0.6-0.4,1-1,1h-3
-	c-0.6,0-1-0.4-1-1v-3.5v-1v-2c0-0.8-0.7-1.5-1.5-1.5S18,17.7,18,18.5v2v1V25c0,0.6-0.4,1-1,1h-3c-0.6,0-1-0.4-1-1V13
-	c0-0.6,0.4-1,1-1h4c0.3,0,0.5,0.1,0.7,0.3c0.6-0.2,1.2-0.3,1.8-0.3c3,0,5.5,2.5,5.5,5.5V25z"/>
-                                </svg>
-                            </a>
+                        max-md:py-2 bg-cyan-950 rounded-full text-white
+                        dark:hover:bg-white/10">Resume</a>
+                        <div className="w-1/2 h-auto py-3 flex items-center justify-center gap-4">
+                          
                         </div>
                     </div>
                 </div>
