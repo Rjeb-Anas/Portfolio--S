@@ -1,179 +1,165 @@
-import React from 'react'
-
+import { GraduationCap } from "lucide-react";
+import { Laptop } from "lucide-react";
 const Cursus = () => {
   return (
-    <>
-      <main id="Cursus" className="mx-auto min-h-dvh  w-full 
-    max-w-7xl px-4 sm:px-6 lg:px-15">
-        <section className="flex flex-col justify center gap-6 py-12 
-            ">
-          <b className='text-lg text-blue-500'>Cursus</b>
-          <h1 className='text-4xl max-md:text-xl'>My Academic Journey</h1>
-          <p className='w-[30%] max-md:w-[70%]'>My education path that shaped my skills
-            and passion for computer science and thechnology.
+    <main
+      id="Cursus"
+      className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-15 py-16"
+    >
+      <section className="flex flex-col gap-8">
+
+        <div className="space-y-3">
+          <span className="text-sm font-semibold uppercase tracking-widest text-blue-500">
+            Cursus
+          </span>
+
+          <h1 className="text-3xl md:text-5xl font-bold text-slate-900 dark:text-white">
+            My Academic Journey
+          </h1>
+
+          <p className="max-w-xl text-slate-600 dark:text-slate-400">
+            My education path that shaped my skills and passion for computer
+            science and technology.
           </p>
-          <hr className='max-md:hidden' />
-         <div
-      className="
-        flex flex-col gap-5
-        sm:flex-row sm:items-start
-        rounded-2xl
-        border border-slate-200 dark:border-slate-800
-        bg-white dark:bg-[#060B16]
-        p-4 sm:p-5
-        shadow-lg shadow-slate-200/40
-        dark:shadow-black/30
-        transition-all duration-300
-        hover:border-blue-500/30
-        hover:shadow-blue-500/10
-      "
-    >
-      <div className="flex items-center justify-between sm:block">
-        <div
+        </div>
+
+        <hr className="border-slate-200 dark:border-slate-800" />
+
+
+        <article
           className="
-            flex h-16 w-16 sm:h-20 sm:w-20
-            items-center justify-center
+          flex flex-col md:flex-row
+          gap-5
+          rounded-2xl
+          border border-slate-200 dark:border-slate-800
+          bg-white dark:bg-[#08111D]
+          p-5
+          shadow-lg shadow-slate-200/30
+          dark:shadow-black/30
+          transition-all duration-300
+          hover:border-blue-500/30
+        "
+        >
+
+          <div
+            className="
+            h-16 w-16 md:h-20 md:w-20
             rounded-2xl
             bg-gradient-to-br
             from-blue-500
             to-blue-700
+            flex items-center justify-center
+            shrink-0
           "
-        >
-         
-        </div>
-
-        <span
-          className="
-            sm:hidden
-            rounded-xl
-            bg-blue-100 dark:bg-blue-900/30
-            px-3 py-1
-            text-xs font-semibold
-            text-blue-600 dark:text-blue-400
-          "
-        >
-          2023 - 2024
-        </span>
-      </div>
-
-      {/* Content */}
-      <div className="flex-1">
-        <div className="flex items-start justify-between gap-4">
-          <div>
-            <h3 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white">
-              Baccalauréat SPC
-            </h3>
-
-            <p className="mt-1 text-sm sm:text-base text-slate-600 dark:text-slate-300">
-              Lycée Mazarin – Science Physique
-            </p>
-          </div>
-
-          <span
-            className="
-              hidden sm:block
-              rounded-xl
-              bg-blue-100 dark:bg-blue-900/30
-              px-4 py-2
-              text-sm font-semibold
-              text-blue-600 dark:text-blue-400
-            "
           >
-            2023 – 2024
-          </span>
-        </div>
+            <GraduationCap className="text-white" size={34} />
+          </div>
+          <div className="flex-1">
 
-        <p className="mt-4 text-sm sm:text-base leading-7 text-slate-600 dark:text-slate-400">
-          Obtention du baccalauréat en Sciences Physiques et Chimiques avec
-          mention bien. Cette formation m'a permis de développer une solide base
-          scientifique et analytique.
-        </p>
-      </div>
-    </div>
+            <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-3">
 
-    <div
-      className="
-        flex flex-col gap-5
-        sm:flex-row sm:items-start
-        rounded-2xl
-        border border-slate-200 dark:border-slate-800
-        bg-white dark:bg-[#060B16]
-        p-4 sm:p-5
-        shadow-lg shadow-slate-200/40
-        dark:shadow-black/30
-        transition-all duration-300
-        hover:border-blue-500/30
-        hover:shadow-blue-500/10
-      "
-    >
-      <div className="flex items-center justify-between sm:block">
-        <div
+              <div>
+                <h2 className="text-xl font-bold text-slate-900 dark:text-white">
+                  Baccalauréat SPC
+                </h2>
+
+                <p className="mt-1 text-slate-500 dark:text-slate-400">
+                  Lycée Mazarin – Science Physique
+                </p>
+              </div>
+
+              <span
+                className="
+                self-start
+                rounded-xl
+                bg-blue-100 dark:bg-blue-900/30
+                px-4 py-2
+                text-sm font-semibold
+                text-blue-600 dark:text-blue-400
+              "
+              >
+                2023 – 2024
+              </span>
+
+            </div>
+
+            <p className="mt-5 text-slate-600 dark:text-slate-400 leading-7">
+              Obtention du baccalauréat en Sciences Physiques et Chimiques avec
+              mention bien. Cette formation m'a permis de développer une solide
+              base scientifique et analytique.
+            </p>
+
+          </div>
+        </article>
+      <article
           className="
-            flex h-16 w-16 sm:h-20 sm:w-20
-            items-center justify-center
+          flex flex-col md:flex-row
+          gap-5
+          rounded-2xl
+          border border-slate-200 dark:border-slate-800
+          bg-white dark:bg-[#08111D]
+          p-5
+          shadow-lg shadow-slate-200/30
+          dark:shadow-black/30
+          transition-all duration-300
+          hover:border-blue-500/30
+        "
+        >
+
+          <div
+            className="
+            h-16 w-16 md:h-20 md:w-20
             rounded-2xl
             bg-gradient-to-br
             from-blue-500
             to-blue-700
+            flex items-center justify-center
+            shrink-0
           "
-        >
-         
-        </div>
-
-        <span
-          className="
-            sm:hidden
-            rounded-xl
-            bg-blue-100 dark:bg-blue-900/30
-            px-3 py-1
-            text-xs font-semibold
-            text-blue-600 dark:text-blue-400
-          "
-        >
-          2023 - 2024
-        </span>
-      </div>
-
-      {/* Content */}
-      <div className="flex-1">
-        <div className="flex items-start justify-between gap-4">
-          <div>
-            <h3 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white">
-              Baccalauréat SPC
-            </h3>
-
-            <p className="mt-1 text-sm sm:text-base text-slate-600 dark:text-slate-300">
-              Lycée Mazarin – Science Physique
-            </p>
-          </div>
-
-          <span
-            className="
-              hidden sm:block
-              rounded-xl
-              bg-blue-100 dark:bg-blue-900/30
-              px-4 py-2
-              text-sm font-semibold
-              text-blue-600 dark:text-blue-400
-            "
           >
-            2023 – 2024
-          </span>
-        </div>
+            <Laptop size={32} className="text-white" />
+          </div>
+          <div className="flex-1">
 
-        <p className="mt-4 text-sm sm:text-base leading-7 text-slate-600 dark:text-slate-400">
-          Obtention du baccalauréat en Sciences Physiques et Chimiques avec
-          mention bien. Cette formation m'a permis de développer une solide base
-          scientifique et analytique.
-        </p>
-      </div>
-    </div>
-    
+            <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-3">
 
-        </section>
-      </main>
-    </>
-  )
-}
+              <div>
+                <h2 className="text-xl font-bold text-slate-900 dark:text-white">
+                  DEUST - IT
+                </h2>
+
+                <p className="mt-1 text-slate-500 dark:text-slate-400">
+                  Faculty of Sciences and Techniques of Fez (USMBA)
+                </p>
+              </div>
+
+              <span
+                className="
+                self-start
+                rounded-xl
+                bg-blue-100 dark:bg-blue-900/30
+                px-4 py-2
+                text-sm font-semibold
+                text-blue-600 dark:text-blue-400
+              "
+              >
+                2024 – 2026U
+              </span>
+
+            </div>
+
+            <p className="mt-5 text-slate-600 dark:text-slate-400 leading-7">
+             Completed the DEUST program in Computer Engineering, building a strong foundation in programming,
+              algorithms, databases, computer networks, operating systems, and software development.
+              Worked on practical projects that strengthened analytical thinking and problem-solving skills.
+            </p>
+
+          </div>
+        </article>
+
+      </section>
+    </main>
+  );
+};
 
 export default Cursus;
