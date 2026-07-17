@@ -5,7 +5,7 @@ import assignment from "./assignment.svg";
 import call from "./call.svg";
 import close from "./close.svg";
 import school from "./school.svg";
-
+import jamboard from "./jamboard.svg";
 export {
     arrowSvg,
     homeSvg,
@@ -14,4 +14,5 @@ export {
     call,
     close,
     school,
+    jamboard,
 };

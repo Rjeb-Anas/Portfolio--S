@@ -14,13 +14,12 @@ const Home = () => {
                     </h1>
 
                     <h2 className="text-[clamp(1rem,2.5vw,1.5rem)] py-2 w-full text-center">
-                        Front-End Developer
+                        Développeur Front-End
                     </h2>
 
                     <p className="text-[clamp(0.9rem,1.5vw,1rem)] py-2 w-full text-center leading-relaxed">
-                        Computer Science student and Front-End Developer passionate about
-                        creating responsive, modern, and accessible web applications using
-                        React, Tailwind CSS, and JavaScript.
+                        Étudiant en Génie Informatique et développeur Front-End, passionné par la création d'applications web modernes, 
+                        réactives et accessibles avec React, Tailwind CSS et JavaScript.
                     </p>
                     <div className="w-full flex py-3 max-md:flex-col
                     items-center justify-center">

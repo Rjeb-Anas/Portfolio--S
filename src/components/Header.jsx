@@ -44,7 +44,7 @@ const Header = () => {
                         hover:after:w-full after:transition-all
                         after:left-0 after:bottom-0 ">
                         <img src={homeSvg} alt="Home" className="size-5 mr-2" />
-                        Home</a>
+                        Accueil</a>
                     <button ref={aboutRef}
                         onClick={() => SetIsOpen(!isOpen)} className={`px-3 py-2 m-2 relative 
                         flex items-center justify-center
@@ -54,13 +54,13 @@ const Header = () => {
                         ${isOpen ? "hover:after:w-0" : "hover:after:w-full"}
                         after:left-0 after:bottom-0 `}>
                         <img src={assignment} alt="Home" className="size-5 mr-2" />
-                        About
+                        À propos
                         <img src={arrowSvg} alt="" className={`size-5 ml-2 ${isOpen ? "animate-open-arrow" : ""} `} />
                         <div className={`absolute flex-col w-full h-auto py-3 bg-cyan-950 top-full z-50 rounded-lg shadow-lg shadow-black
                                 left-0 ${isOpen ? "flex animate-menu-open" : "hidden"} text-[clamp(0.5rem,1vw,0.75rem)`}>
-                            <a href="#About" className="py-2 hover:bg-white/10 overflow-hidden line-clamp-1 ">About</a>
+                            <a href="#About" className="py-2 hover:bg-white/10 overflow-hidden line-clamp-1 ">À propos</a>
                             <a href="#Cursus" className="py-2 hover:bg-white/10 overflow-hidden line-clamp-1 ">Cursus</a>
-                            <a href="" className="py-2 hover:bg-white/10 overflow-hidden line-clamp-1 ">Projects</a>
+                            <a href="" className="py-2 hover:bg-white/10 overflow-hidden line-clamp-1 ">Projets</a>
                         </div>
                     </button>
                     <a href="" className="px-3 py-2 m-2 relative 
