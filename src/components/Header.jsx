@@ -33,14 +33,24 @@ const Header = () => {
     }, []);
     return (
         <>
-            <header id="Head" className="mx-auto flex h-20 max-w-7xl  bg-cyan-950 w-full text-white
-             items-center md:justify-between max-md:justify-around px-4 sm:px-6 md:px-8 lg:px-10 text-[clamp(1rem,2vw,1.25rem)]">
+            <header
+            id="Head"
+            className="
+                fixed top-0 left-0 right-0 z-50
+                mx-auto h-20
+                bg-cyan-950 text-white
+                flex items-center
+                md:justify-between max-md:justify-around
+                px-4 sm:px-6 md:px-8 lg:px-10
+                text-[clamp(1rem,2vw,1.25rem)]
+            "
+            >
                 <span>Portfolio</span>
                 <div className="max-md:hidden py-3 px-3 flex items-center justify-center">
                     <a href="" className="px-3 py-2 m-2 relative 
                         flex items-center justify-center
                         after:rounded-full
-                        after:contente-[''] after:w-0 after:h-0.5 after:bg-white after:absolute 
+                        after:content-[''] after:w-0 after:h-0.5 after:bg-white after:absolute 
                         hover:after:w-full after:transition-all
                         after:left-0 after:bottom-0 ">
                         <img src={homeSvg} alt="Home" className="size-5 mr-2" />
@@ -57,7 +67,7 @@ const Header = () => {
                         À propos
                         <img src={arrowSvg} alt="" className={`size-5 ml-2 ${isOpen ? "animate-open-arrow" : ""} `} />
                         <div className={`absolute flex-col w-full h-auto py-3 bg-cyan-950 top-full z-50 rounded-lg shadow-lg shadow-black
-                                left-0 ${isOpen ? "flex animate-menu-open" : "hidden"} text-[clamp(0.5rem,1vw,0.75rem)`}>
+                                left-0 ${isOpen ? "flex animate-menu-open" : "hidden"} text-[clamp(0.5rem,1vw,0.75rem)]`}>
                             <a href="#About" className="py-2 hover:bg-white/10 overflow-hidden line-clamp-1 ">À propos</a>
                             <a href="#Cursus" className="py-2 hover:bg-white/10 overflow-hidden line-clamp-1 ">Cursus</a>
                             <a href="" className="py-2 hover:bg-white/10 overflow-hidden line-clamp-1 ">Projets</a>
