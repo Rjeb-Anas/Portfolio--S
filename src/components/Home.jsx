@@ -28,7 +28,9 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="md:w-1/2 max-md:h-1/2 flex items-center justify-center ">
-                    <div className="w-40 h-40 md:w-60 md:h-60 bg-red-400 
+                    <div className="md:w-[30vw] max-md:w-[60vw] h-40 
+                    md:h-60 
+                    border 
                     rounded-xl">
                         
                     </div>
