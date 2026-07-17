@@ -1,4 +1,4 @@
-import portfolio from "../assets/portfolio.png";
+import image from "../assets/img.png";
 const Home = () => {
     return (
         <main className="mx-auto min-h-[calc(100dvh-6.25rem)]  w-full
@@ -32,7 +32,7 @@ const Home = () => {
                     md:h-60 
                     rounded-xl">
                         <img
-                        src={portfolio}
+                        src={image}
                         alt="Portfolio"
                         className="size-full rounded-xl"
                         />
