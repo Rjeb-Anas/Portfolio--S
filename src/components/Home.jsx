@@ -28,8 +28,9 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="md:w-1/2 max-md:h-1/2 flex items-center justify-center ">
-                    <div className="w-40 h-40 bg-red-400 ">
-
+                    <div className="w-40 h-40 md:w-60 md:h-60 bg-red-400 
+                    rounded-xl">
+                        
                     </div>
                 </div>
                 <a href="#Cursus" className='w-auto h-auto   border rounded-full absolute bottom-0  left-1/2 -translate-x-1/2'>
