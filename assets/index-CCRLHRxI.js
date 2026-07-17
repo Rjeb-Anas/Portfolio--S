@@ -38,7 +38,9 @@ Error generating stack: `+e.message+`
                  justify-center`,children:[(0,b.jsx)(`h1`,{className:`text-[clamp(2rem,5vw,3rem)] py-2 w-full text-center font-bold`,children:`Anass Rjeb`}),(0,b.jsx)(`h2`,{className:`text-[clamp(1rem,2.5vw,1.5rem)] py-2 w-full text-center`,children:`Front-End Developer`}),(0,b.jsx)(`p`,{className:`text-[clamp(0.9rem,1.5vw,1rem)] py-2 w-full text-center leading-relaxed`,children:`Computer Science student and Front-End Developer passionate about creating responsive, modern, and accessible web applications using React, Tailwind CSS, and JavaScript.`}),(0,b.jsx)(`div`,{className:`w-full flex py-3 \r
                     items-center justify-center`,children:(0,b.jsx)(`a`,{href:``,className:`py-3 px-10\r
                         max-md:py-1 bg-red-500 rounded-full\r
-                        hover:bg-red-400`,children:`Resume`})})]}),(0,b.jsx)(`div`,{className:`md:w-1/2 max-md:h-1/2 flex items-center justify-center `,children:(0,b.jsx)(`div`,{className:`w-40 h-40 md:w-60 md:h-60 bg-red-400 \r
+                        hover:bg-red-400`,children:`Resume`})})]}),(0,b.jsx)(`div`,{className:`md:w-1/2 max-md:h-1/2 flex items-center justify-center `,children:(0,b.jsx)(`div`,{className:`md:w-[30vw] max-md:w-[60vw] h-40 \r
+                    md:h-60 \r
+                    border \r
                     rounded-xl`})}),(0,b.jsx)(`a`,{href:`#Cursus`,className:`w-auto h-auto   border rounded-full absolute bottom-0  left-1/2 -translate-x-1/2`,children:(0,b.jsx)(`button`,{class:`cursor-pointer relative after:content-['scroll_to_bottom']\r
                          after:text-white after:absolute after:text-nowrap after:scale-0 \r
                          hover:after:scale-100 after:duration-200 w-10 h-10 rounded-full  border-4 border-sky-200 bg-black pointer \r
