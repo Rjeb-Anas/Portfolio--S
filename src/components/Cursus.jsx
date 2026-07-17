@@ -63,6 +63,23 @@ const Cursus = () => {
                         <span className="bg-blue-500/50 py-1 px-4 rounded-full text-[clamp(0.9rem,1vw,1rem)]">2024-2026</span>
                   </div>
             </article>
+            <article className="w-full  p-3  flex flex-row max-md:flex-col justify-between rounded-2xl border gap-3
+             border-blue-400 hover:border-blue-500">
+                  <div className="w-20 max-md:w-15 max-md:h-15 h-20 p-4 bg-blue-500 rounded-xl flex items-center justify-center">
+                  <img src={jamboard} alt="Home" className="size-full" />
+                  </div>
+                  <div className="w-[80%] max-md:w-full flex flex-col">
+                    <b>LICENCE</b>
+                    <span className="text-gray-400">Faculté des Sciences et Techniques de Fès</span>
+                    <hr className="my-2 bg-gray-400" />
+                    <span className="text-gray-400 text-[clamp(0.9rem,1.5vw,1rem)]">
+                      
+                    </span>
+                  </div>
+                  <div className="flex items-start justify-center ">
+                        <span className="bg-blue-500/50 py-1 px-4 rounded-full text-[clamp(0.9rem,1vw,1rem)]">2026 - </span>
+                  </div>
+            </article>
             </div>
         </div>
       </section>
