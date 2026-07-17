@@ -28,20 +28,21 @@ const Home = () => {
                         max-md:py-2 bg-cyan-950 rounded-full text-white
                         dark:hover:bg-white/10">Resume</a>
                         <div className="w-1/2 h-auto py-3 flex items-center justify-center gap-4">
-                          
+
                         </div>
                     </div>
                 </div>
                 <div className="md:w-1/2 max-md:h-1/2 flex items-center justify-center ">
-                    <div className="md:w-[30vw] max-md:w-[60vw] h-40 
+                    <a href="" className="md:w-[30vw] max-md:w-[60vw] h-40 
                     md:h-60 
-                    rounded-xl">
+                    rounded-xl hover:scale-95 transition-all">
                         <img
                             src={image}
                             alt="Portfolio"
-                            className="size-full rounded-xl"
+                            className="size-full rounded-xl shadow-[0_0_7px_black]
+                dark:shadow-[0_0_7px_white]"
                         />
-                    </div>
+                    </a>
                 </div>
                 <a href="#Cursus" className='w-auto h-auto   border rounded-full absolute bottom-0  left-1/2 -translate-x-1/2'>
                     <button
