@@ -8,10 +8,12 @@ import Cursus from './components/Cursus'
 function App() {
   return (
     <>
-      <main className='min-h-dvh w-full overflow-x-hidden text-black dark:text-white min-w-75
-      bg-linear-to-b from-[#F8FAFC] via-[#F3F6FB] to-[#EDF2F7]     transition-colors duration-300
-    dark:from-[#000309] dark:via-[#00050D] dark:to-[#000712]  animate-load-fast '>
-        <div className="mx-auto flex min-h-dvh w-full max-w-7xl flex-col md:border-l-cyan-950 relative
+      <main className='min-h-dvh w-full overflow-x-hidden text-black dark:text-white
+       min-w-75  bg-linear-to-b
+      from-slate-100 to-slate-200
+       dark:from-slate-900 dark:to-slate-950     transition-colors duration-300
+     animate-load-fast '>
+        <div className="mx-auto flex min-h-dvh w-full max-w-7xl flex-col md:border-l-cyan-950 
        md:border-r-cyan-950 
         md:border-l-4 md:border-r-4">
           <Header></Header>
