@@ -6,6 +6,8 @@ import call from "./call.svg";
 import close from "./close.svg";
 import school from "./school.svg";
 import jamboard from "./jamboard.svg";
+import location from "./location.svg";
+import calendar from "./calendar.svg";
 export {
     arrowSvg,
     homeSvg,
@@ -15,4 +17,6 @@ export {
     close,
     school,
     jamboard,
+    location,
+    calendar,
 };

@@ -1,3 +1,8 @@
+import {
+    location,
+    calendar,
+} from "../assets";
+
 const About = () => {
     return (
         <>
@@ -19,7 +24,68 @@ const About = () => {
                         </p>
                     </div>
                     <hr className="border-slate-800" />
+                    <div className="w-full px-2 py-3 h-auto flex gap-5 items-center justify-center">
+                        <article
+                            className="
+                            w-44
+                            rounded-2xl
+                            border border-blue-500/30
+                            bg-white/5 dark:bg-slate-900/50
+                            p-4
+                            transition-all duration-300
+                            hover:border-blue-500
+                            hover:-translate-y-1
+                        "
+                        >
+                            <div className="flex items-center gap-3">
+                                <img
+                                    src={location}
+                                    alt="Location"
+                                    className="h-8 w-8"
+                                />
 
+                                <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
+                                    Location
+                                </h3>
+                            </div>
+
+                            <hr className="my-3 border-slate-200 dark:border-slate-700" />
+
+                            <p className="text-center text-slate-600 dark:text-slate-400">
+                                Morocco
+                            </p>
+                        </article>
+                        <article
+                            className="
+                            w-44
+                            rounded-2xl
+                            border border-blue-500/30
+                            bg-white/5 dark:bg-slate-900/50
+                            p-4
+                            transition-all duration-300
+                            hover:border-blue-500
+                            hover:-translate-y-1
+                        "
+                        >
+                            <div className="flex items-center gap-3">
+                                <img
+                                    src={calendar}
+                                    alt="Location"
+                                    className="h-8 w-8"
+                                />
+
+                                <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
+                                    Age
+                                </h3>
+                            </div>
+
+                            <hr className="my-3 border-slate-200 dark:border-slate-700" />
+
+                            <p className="text-center text-slate-600 dark:text-slate-400">
+                                20
+                            </p>
+                        </article>
+                    </div>
                 </section>
             </main>
         </>

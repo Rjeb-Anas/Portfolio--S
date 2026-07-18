@@ -8,7 +8,7 @@ const Home = () => {
             <section className="flex md:flex-row max-md:flex-col
              max-md:items-center w-full  gap-6  py-10 relative h-150 ">
                 <div className="md:w-1/2 max-md:h-1/2 h-auto flex flex-col
-                 justify-center">
+                 justify-start">
                     <h1 className="text-[clamp(2rem,5vw,3rem)] py-2 w-full text-center font-bold">
                         Anass Rjeb
                     </h1>
@@ -26,12 +26,9 @@ const Home = () => {
                         <a href="" className="py-3 px-10
                         max-md:py-2 bg-cyan-950 rounded-full text-white
                         dark:hover:bg-white/10">Resume</a>
-                        <div className="w-1/2 h-auto py-3 flex items-center justify-center gap-4">
-
-                        </div>
                     </div>
                 </div>
-                <div className="md:w-1/2 max-md:h-1/2 flex items-center justify-center ">
+                <div className="md:w-1/2 max-md:h-1/2 flex flex-col items-center justify-start  max-md:justify-center">
                     <a href="" className="md:w-[30vw] max-md:w-[60vw] h-40 
                     md:h-60 
                     rounded-xl hover:scale-95 transition-all">
