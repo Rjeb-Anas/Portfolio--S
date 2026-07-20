@@ -60,10 +60,9 @@ const Header = () => {
                                 left-0 ${isOpen ? "flex animate-menu-open" : "hidden"} text-[clamp(0.5rem,1vw,0.75rem)`}>
                             <a href="#About" className="py-2 hover:bg-white/10 overflow-hidden line-clamp-1 ">À propos</a>
                             <a href="#Cursus" className="py-2 hover:bg-white/10 overflow-hidden line-clamp-1 ">Cursus</a>
-                            <a href="" className="py-2 hover:bg-white/10 overflow-hidden line-clamp-1 ">Projets</a>
                         </div>
                     </button>
-                    <a href="" className="px-3 py-2 m-2 relative 
+                    <a href="#Contact" className="px-3 py-2 m-2 relative 
                         flex items-center justify-center
                         after:rounded-full
                         after:contente-[''] after:w-0 after:h-0.5 after:bg-white after:absolute 
@@ -93,7 +92,7 @@ const Header = () => {
                             }`}
                     >
                         <a href="#About" className="w-full text-center py-2 hover:bg-white/10">À propos</a>
-                        <a href="" className="w-full text-center py-2 hover:bg-white/10">Contact</a>
+                        <a href="#Contact" className="w-full text-center py-2 hover:bg-white/10">Contact</a>
                     </div>
                 </div>
             </header>

@@ -1,7 +1,7 @@
 import image from "../assets/img.png";
-import{
+import {
     double_arrow_down,
-}from'../assets/index'
+} from '../assets/index'
 
 const Home = () => {
     return (
@@ -20,14 +20,14 @@ const Home = () => {
                     </h2>
 
                     <p className="text-[clamp(0.9rem,1.5vw,1rem)] py-2 w-full text-center leading-relaxed">
-                        Étudiant en Génie Informatique et développeur Front-End, passionné par la création d'applications web modernes, 
+                        Étudiant en Génie Informatique et développeur Front-End, passionné par la création d'applications web modernes,
                         réactives et accessibles avec React, Tailwind CSS et JavaScript.
                     </p>
                     <div className="w-full flex py-3 max-md:flex-col
                     items-center justify-center">
-                            <a href="#About" className="p-1 rounded-full dark:bg-white/10 bg-black     flex items-center justify-center animate-bounce duration-1000">
-                                <img src={double_arrow_down} alt="double_arrow_down"  className="animate-bounce duration-500" />
-                            </a>
+                        <a href="#About" className="p-1 rounded-full dark:bg-white/10 bg-black     flex items-center justify-center animate-bounce ">
+                            <img src={double_arrow_down} alt="double_arrow_down" className="animate-bounce" />
+                        </a>
                     </div>
                 </div>
                 <div className="md:w-1/2 max-md:h-1/2 flex flex-col items-center justify-start  max-md:justify-center">

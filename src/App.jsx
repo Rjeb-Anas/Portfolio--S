@@ -3,7 +3,7 @@ import Header from '../src/components/Header'
 import Home from '../src/components/Home'
 import About from './components/About'
 import Cursus from './components/Cursus'
-
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
           <Home></Home>
           <About></About>
           <Cursus></Cursus>
+          <Contact></Contact>
         </div>
       </main>
     </>

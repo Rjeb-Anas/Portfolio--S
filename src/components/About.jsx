@@ -26,7 +26,7 @@ const About = () => {
                     </div>
                     <hr className="border-slate-800" />
                    <div className="w-full p-1 flex items-center justify-center">
-                     <div className="md:w-[50%] w-[80%] px-2 py-3 h-auto flex gap-5 flex-wrap justify-center">
+                     <div className="md:w-[50%] w-[90%] px-2 py-3 h-auto flex gap-5 flex-wrap justify-center">
                         <a href="" className="flex flex-row py-2 px-3 border items-center gap-3 
                         rounded-lg hover:translate-y-1 transition-all min-w-65 ">
                             <img  src={alternate_email} alt="Home" className="size-11 bg-blue-500 p-2 rounded-xl" />
