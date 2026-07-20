@@ -11,6 +11,7 @@ import calendar from "./calendar.svg";
 import alternate_email from "./alternate_email.svg";
 import download from "./download.svg";
 import double_arrow_down from "./double_arrow_down.svg";
+import language from "./language.svg";
 export {
     arrowSvg,
     homeSvg,
@@ -25,4 +26,5 @@ export {
     alternate_email,
     download,
     double_arrow_down,
+    language,
 };

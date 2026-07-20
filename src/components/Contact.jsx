@@ -1,3 +1,8 @@
+import {
+    alternate_email,
+    call,
+    download,
+} from "../assets/index";
 const Contact = () => {
     return (
         <>
@@ -14,10 +19,29 @@ const Contact = () => {
                         </h1>
 
                         <p className="max-w-xl text-slate-600 dark:text-slate-400 text-[clamp(0.9rem,1.5vw,1rem)]">
-                              N'hésitez pas à me contacter pour toute opportunité, collaboration ou simplement pour échanger sur un projet.
+                             N'hésitez pas à me contacter pour toute opportunité, collaboration ou simplement pour échanger sur un projet.
                         </p>
                     </div>
                     <hr className="border-slate-800" />
+                    <div className="w-full p-1 flex items-center justify-center">
+                                         <div className="md:w-[50%] w-[90%] px-2 py-3 h-auto flex gap-5 flex-wrap justify-center">
+                                            <a href="" className="flex flex-row py-2 px-3 border items-center gap-3 
+                                            rounded-lg hover:translate-y-1 transition-all min-w-65 ">
+                                                <img  src={alternate_email} alt="Home" className="size-11 bg-blue-500 p-2 rounded-xl" />
+                                                <span className="h-full flex items-center justify-center">anassrjeb929@gmail.com</span>
+                                            </a>
+                                            <a href="" className="flex flex-row py-2 px-3 border items-center gap-3 
+                                            rounded-lg hover:translate-y-1 transition-all min-w-65 ">
+                                                <img  src={call} alt="Home" className="size-11 bg-blue-500 p-2 rounded-xl" />
+                                                <span className="h-full flex items-center justify-center">+212 665019496</span>
+                                            </a>     
+                                            <a href="" className="flex flex-row py-2 px-3 border items-center gap-3 
+                                            rounded-lg hover:translate-y-1 transition-all min-w-65 ">
+                                                <img  src={download} alt="Home" className="size-11 bg-blue-500 p-2 rounded-xl" />
+                                                <span className="h-full flex items-center justify-center">téléchager CV</span>
+                                            </a>       
+                                        </div>
+                                       </div>
                 </section>
             </main>
         </>
