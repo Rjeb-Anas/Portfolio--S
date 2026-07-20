@@ -14,6 +14,7 @@ import double_arrow_down from "./double_arrow_down.svg";
 import language from "./language.svg";
 import handyman from "./handyman.svg";
 import code from "./code.svg";
+import github from "./github.svg";
 export {
     arrowSvg,
     homeSvg,
@@ -31,4 +32,5 @@ export {
     language,
     handyman,
     code,
+    github,
 };

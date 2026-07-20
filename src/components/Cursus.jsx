@@ -1,6 +1,7 @@
 import {
     school,
     jamboard,
+    
 } from "../assets";
 const Cursus = () => {
 

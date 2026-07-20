@@ -4,6 +4,7 @@ import {
     download,
     language,
     handyman,
+   
 } from "../assets/index";
 
 const About = () => {

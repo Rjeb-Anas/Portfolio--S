@@ -2,6 +2,8 @@ import {
     alternate_email,
     call,
     download,
+     location,
+     github,
 } from "../assets/index";
 const Contact = () => {
     return (
@@ -34,7 +36,17 @@ const Contact = () => {
                                             rounded-lg hover:translate-y-1 transition-all min-w-65 ">
                                                 <img  src={call} alt="Home" className="size-11 bg-blue-500 p-2 rounded-xl" />
                                                 <span className="h-full flex items-center justify-center">+212 665019496</span>
-                                            </a>           
+                                            </a> 
+                                            <a href="" className="flex flex-row py-2 px-3 border items-center gap-3 
+                                            rounded-lg hover:translate-y-1 transition-all min-w-65 ">
+                                                <img  src={location} alt="Home" className="size-11 bg-blue-500 p-2 rounded-xl" />
+                                                <span className="h-full flex items-center justify-center">Maroc ,Fès</span>
+                                            </a> 
+                                            <a href="https://github.com/Rjeb-Anas" target="_blank" className="flex flex-row py-2 px-3 border items-center gap-3 
+                                            rounded-lg hover:translate-y-1 transition-all min-w-65 ">
+                                                <img  src={github} alt="Home" className="size-11 bg-blue-500 p-2 rounded-xl" />
+                                                <span className="h-full flex items-center justify-center">github.com/Rjeb-Anas</span>
+                                            </a>               
                                         </div>
                                        </div>
                 </section>
