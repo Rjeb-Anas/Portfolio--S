@@ -1,5 +1,7 @@
 import image from "../assets/img.png";
-
+import{
+    double_arrow_down,
+}from'../assets/index'
 
 const Home = () => {
     return (
@@ -23,9 +25,9 @@ const Home = () => {
                     </p>
                     <div className="w-full flex py-3 max-md:flex-col
                     items-center justify-center">
-                        <a href="" className="py-3 px-10
-                        max-md:py-2 bg-cyan-950 rounded-full text-white
-                        dark:hover:bg-white/10">Resume</a>
+                            <a href="#About" className="p-1 rounded-full dark:bg-white/10 bg-black     flex items-center justify-center animate-bounce duration-1000">
+                                <img src={double_arrow_down} alt="double_arrow_down"  className="animate-bounce duration-500" />
+                            </a>
                     </div>
                 </div>
                 <div className="md:w-1/2 max-md:h-1/2 flex flex-col items-center justify-start  max-md:justify-center">

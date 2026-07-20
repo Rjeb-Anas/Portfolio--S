@@ -8,6 +8,9 @@ import school from "./school.svg";
 import jamboard from "./jamboard.svg";
 import location from "./location.svg";
 import calendar from "./calendar.svg";
+import alternate_email from "./alternate_email.svg";
+import download from "./download.svg";
+import double_arrow_down from "./double_arrow_down.svg";
 export {
     arrowSvg,
     homeSvg,
@@ -19,4 +22,7 @@ export {
     jamboard,
     location,
     calendar,
+    alternate_email,
+    download,
+    double_arrow_down,
 };
