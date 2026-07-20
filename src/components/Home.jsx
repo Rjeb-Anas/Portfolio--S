@@ -26,7 +26,9 @@ const Home = () => {
                     </p>
                     <div className="w-full flex py-3 flex-col
                     items-center justify-center">
-                        <a href="#About" className="p-1 rounded-full dark:bg-white/10 bg-black     flex items-center justify-center animate-bounce ">
+
+                        <span className="px-3 py-1 rounded-full bg-blue-500">Update : 31</span>
+                        <a href="#About" className="p-1 rounded-full dark:bg-white/10 bg-black mt-5    flex items-center justify-center animate-bounce ">
                             <img src={double_arrow_down} alt="double_arrow_down" className="animate-bounce" />
                         </a>
                     </div>
