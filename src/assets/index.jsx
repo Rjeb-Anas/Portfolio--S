@@ -13,6 +13,7 @@ import download from "./download.svg";
 import double_arrow_down from "./double_arrow_down.svg";
 import language from "./language.svg";
 import handyman from "./handyman.svg";
+import code from "./code.svg";
 export {
     arrowSvg,
     homeSvg,
@@ -29,4 +30,5 @@ export {
     double_arrow_down,
     language,
     handyman,
+    code,
 };

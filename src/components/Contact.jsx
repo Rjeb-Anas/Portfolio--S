@@ -34,12 +34,7 @@ const Contact = () => {
                                             rounded-lg hover:translate-y-1 transition-all min-w-65 ">
                                                 <img  src={call} alt="Home" className="size-11 bg-blue-500 p-2 rounded-xl" />
                                                 <span className="h-full flex items-center justify-center">+212 665019496</span>
-                                            </a>     
-                                            <a href="" className="flex flex-row py-2 px-3 border items-center gap-3 
-                                            rounded-lg hover:translate-y-1 transition-all min-w-65 ">
-                                                <img  src={download} alt="Home" className="size-11 bg-blue-500 p-2 rounded-xl" />
-                                                <span className="h-full flex items-center justify-center">téléchager CV</span>
-                                            </a>       
+                                            </a>           
                                         </div>
                                        </div>
                 </section>
