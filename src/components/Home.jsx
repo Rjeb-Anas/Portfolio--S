@@ -4,6 +4,7 @@ import {
 } from '../assets/index'
 
 const Home = () => {
+    document.curre
     return (
         <main className="mx-auto min-h-dvh  w-full flex items-center justify-center
     max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -23,7 +24,7 @@ const Home = () => {
                         Étudiant en Génie Informatique et développeur Front-End, passionné par la création d'applications web modernes,
                         réactives et accessibles avec React, Tailwind CSS et JavaScript.
                     </p>
-                    <div className="w-full flex py-3 max-md:flex-col
+                    <div className="w-full flex py-3 flex-col
                     items-center justify-center">
                         <a href="#About" className="p-1 rounded-full dark:bg-white/10 bg-black     flex items-center justify-center animate-bounce ">
                             <img src={double_arrow_down} alt="double_arrow_down" className="animate-bounce" />
