@@ -3,6 +3,7 @@ import {
     call,
     download,
     language,
+    handyman,
 } from "../assets/index";
 
 const About = () => {
@@ -31,22 +32,50 @@ const About = () => {
                             Compétences
                         </span>
                        
-                           <div className="w-full md:p-5 p-2 flex flex-wrap items-center justify-center ">
+                           <div className="w-full p-5 gap-5 flex flex-wrap items-center justify-center ">
 
-                              <div className="border p-2 rounded-xl flex flex-col  gap-1 items-center justify-center">
-                                    <h2 className="py-2 px-3 flex items-center justify-center bg-blue-500 rounded-xl">
+                              <div className="border p-2 rounded-xl flex flex-col  gap-1 items-center 
+                               min-w-36 text-[clamp(0.9rem,1.5vw,1rem)] min-h-45">
+                                    <h2 className="py-2 px-3 flex items-center justify-center bg-blue-500 rounded-xl w-full ">
                                         <img src={language} alt="" className="inline mr-2" />
                                         Front-end
                                     </h2>
                                     <ul className="w-full text-center">
-                                        <li className="md:py-2 py-1 text-[clamp(0.9rem,1.5vw,1rem)]">HTML</li>
+                                        <li className="md:py-2 py-1 ">HTML</li>
                                         <li className="md:py-2">CSS</li>
                                         <li className="md:py-2">JavaScript</li>
                                         <li className="md:py-2">React</li>
+                                        <li className="md:py-2">Tailwind CSS</li>
                                     </ul>
                               </div>
-                                        
 
+                            <div className="border p-2 rounded-xl flex flex-col  gap-1 items-center 
+                             min-w-36 text-[clamp(0.9rem,1.5vw,1rem)] min-h-45">
+                                    <h2 className="py-2 px-3 flex items-center justify-center bg-blue-500 rounded-xl w-full">
+                                        <img src={language} alt="" className="inline mr-2" />
+                                        Back-End
+                                    </h2>
+                                    <ul className="w-full text-center">
+                                        <li className="md:py-2 py-1">HTML</li>
+                                        <li className="md:py-2">PHP</li>
+                                        <li className="md:py-2">MySQL</li>
+                                    </ul>
+                              </div>      
+
+
+                            <div className="border p-2 rounded-xl flex flex-col  gap-1 items-center  min-w-36
+                             text-[clamp(0.9rem,1.5vw,1rem)] min-h-45">
+                                    <h2 className="py-2 px-3 flex items-center justify-center bg-blue-500 rounded-xl w-full">
+                                        <img src={handyman} alt="" className="inline mr-2" />
+                                        Tools
+                                    </h2>
+                                    <ul className="w-full text-center">
+                                        <li className="md:py-2 py-1 ">HTML</li>
+                                        <li className="md:py-2">Git</li>
+                                        <li className="md:py-2">GitHub</li>
+                                        <li className="md:py-2">XAMPP</li>
+                                    </ul>
+                              </div>  
 
                            </div>
                         

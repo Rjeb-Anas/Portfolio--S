@@ -12,6 +12,7 @@ import alternate_email from "./alternate_email.svg";
 import download from "./download.svg";
 import double_arrow_down from "./double_arrow_down.svg";
 import language from "./language.svg";
+import handyman from "./handyman.svg";
 export {
     arrowSvg,
     homeSvg,
@@ -27,4 +28,5 @@ export {
     download,
     double_arrow_down,
     language,
+    handyman,
 };
