@@ -62,7 +62,6 @@ const About = () => {
                                     Back-End
                                 </h2>
                                 <ul className="w-full text-center">
-                                    <li className="md:py-2 py-1">HTML</li>
                                     <li className="md:py-2">PHP</li>
                                     <li className="md:py-2">MySQL</li>
                                 </ul>
@@ -76,7 +75,6 @@ const About = () => {
                                     Tools
                                 </h2>
                                 <ul className="w-full text-center">
-                                    <li className="md:py-2 py-1 ">HTML</li>
                                     <li className="md:py-2">Git</li>
                                     <li className="md:py-2">GitHub</li>
                                     <li className="md:py-2">XAMPP</li>

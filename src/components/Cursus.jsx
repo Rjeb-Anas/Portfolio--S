@@ -42,7 +42,8 @@ const Cursus = () => {
                     </span>
                   </div>
                   <div className="flex items-start justify-center ">
-                        <span className="bg-blue-500/50 py-1 px-4 rounded-full text-[clamp(0.9rem,1vw,1rem)]">2023-2024</span>
+                        <span className="bg-blue-500/50 py-1 px-2 flex items-center justify-center
+                         rounded-full text-[clamp(0.9rem,1vw,1rem)] w-25">2023 - 2024</span>
                   </div>
             </article>
             <article className="w-full  p-3  flex flex-row max-md:flex-col justify-between rounded-2xl border gap-3
@@ -60,7 +61,8 @@ const Cursus = () => {
                     </span>
                   </div>
                   <div className="flex items-start justify-center ">
-                        <span className="bg-blue-500/50 py-1 px-4 rounded-full text-[clamp(0.9rem,1vw,1rem)]">2024-2026</span>
+                        <span className="bg-blue-500/50 py-1 px-2 flex items-center justify-center
+                         rounded-full text-[clamp(0.9rem,1vw,1rem)] w-25">2024 - 2026</span>
                   </div>
             </article>
             <article className="w-full  p-3  flex flex-row max-md:flex-col justify-between rounded-2xl border gap-3
@@ -77,7 +79,8 @@ const Cursus = () => {
                     </span>
                   </div>
                   <div className="flex items-start justify-center ">
-                        <span className="bg-blue-500/50 py-1 px-4 rounded-full text-[clamp(0.9rem,1vw,1rem)]">2026 - </span>
+                        <span className="bg-blue-500/50 py-1 px-2 flex items-center justify-center
+                         rounded-full text-[clamp(0.9rem,1vw,1rem)] w-30">2026 - en cours</span>
                   </div>
             </article>
             </div>
