@@ -15,6 +15,7 @@ import language from "./language.svg";
 import handyman from "./handyman.svg";
 import code from "./code.svg";
 import github from "./github.svg";
+import visibility from "./visibility.svg";
 export {
     arrowSvg,
     homeSvg,
@@ -33,4 +34,5 @@ export {
     handyman,
     code,
     github,
+    visibility,
 };
