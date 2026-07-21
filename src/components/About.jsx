@@ -1,10 +1,12 @@
+import { useEffect, useRef } from "react";
+
 import {
     code,
     call,
     download,
     language,
     handyman,
-   
+
 } from "../assets/index";
 
 const About = () => {
@@ -26,10 +28,20 @@ const About = () => {
                             Je suis étudiant en Génie Informatique, passionné par le développement web, la cybersécurité et les nouvelles technologies. J'aime concevoir des applications modernes,
                             résoudre des problèmes et apprendre continuellement afin d'améliorer mes compétences.
                         </p>
-                        <a download href="/src/assets/CV_Anass_Rjeb.pdf" className="flex flex-row py-2 px-3 border items-center gap-3 w-50
-                                            rounded-lg hover:translate-y-1 transition-all ">
-                            <img src={download} alt="Home" className="size-11 bg-red-500 p-2 rounded-xl" />
-                            <span className="h-full flex items-center justify-center">téléchager CV</span>
+                        <a
+                            data-animation="animate-visible-left"
+                            download
+                            href="/src/assets/CV_Anass_Rjeb.pdf"
+                            className="opacity-0 flex flex-row py-2 px-3 border items-center gap-3 w-50 rounded-lg hover:translate-y-1 transition-all"
+                        >
+                            <img
+                                src={download}
+                                alt="Home"
+                                className="size-11 bg-red-500 p-2 rounded-xl"
+                            />
+                            <span className="h-full flex items-center justify-center">
+                                télécharger CV
+                            </span>
                         </a>
                     </div>
 
@@ -41,7 +53,8 @@ const About = () => {
 
                         <div className="w-full p-5 gap-5 flex flex-wrap items-center justify-center ">
 
-                            <div className="border p-2 rounded-xl flex flex-col  gap-1 items-center 
+                            <div  data-animation="animate-visible-bottom"
+                             className="border p-2 rounded-xl flex flex-col  gap-1 items-center opacity-0 
                                min-w-36 text-[clamp(0.9rem,1.5vw,1rem)] min-h-45">
                                 <h2 className="py-2 px-3 flex items-center justify-center bg-blue-500 rounded-xl w-full ">
                                     <img src={code} alt="" className="inline mr-2" />
@@ -56,7 +69,7 @@ const About = () => {
                                 </ul>
                             </div>
 
-                            <div className="border p-2 rounded-xl flex flex-col  gap-1 items-center 
+                            <div data-animation="animate-visible-bottom" className="border p-2 rounded-xl flex flex-col  gap-1 items-center opacity-0 
                              min-w-36 text-[clamp(0.9rem,1.5vw,1rem)] min-h-45">
                                 <h2 className="py-2 px-3 flex items-center justify-center bg-blue-500 rounded-xl w-full">
                                     <img src={language} alt="" className="inline mr-2" />
@@ -69,7 +82,7 @@ const About = () => {
                             </div>
 
 
-                            <div className="border p-2 rounded-xl flex flex-col  gap-1 items-center  min-w-36
+                            <div data-animation="animate-visible-bottom" className="border p-2 rounded-xl flex flex-col  gap-1 items-center  min-w-36 opacity-0
                              text-[clamp(0.9rem,1.5vw,1rem)] min-h-45">
                                 <h2 className="py-2 px-3 flex items-center justify-center bg-blue-500 rounded-xl w-full">
                                     <img src={handyman} alt="" className="inline mr-2" />

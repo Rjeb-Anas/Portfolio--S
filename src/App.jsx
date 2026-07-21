@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import { useState } from 'react'
 import Header from '../src/components/Header'
 import Home from '../src/components/Home'
@@ -6,6 +7,29 @@ import Cursus from './components/Cursus'
 import Contact from './components/Contact'
 
 function App() {
+  useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    const animation = entry.target.dataset.animation;
+
+                    entry.target.classList.remove("opacity-0");
+
+                    if (animation) {
+                        entry.target.classList.add(animation);
+                    }
+
+                    observer.unobserve(entry.target);
+                }
+            });
+        });
+
+        document.querySelectorAll("[data-animation]").forEach((el) => {
+            observer.observe(el);
+        });
+
+        return () => observer.disconnect();
+    }, []);
   return (
     <>
       <main className='min-h-dvh w-full overflow-x-hidden text-black dark:text-white

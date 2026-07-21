@@ -4,7 +4,7 @@ import {
     
 } from "../assets";
 const Cursus = () => {
-
+  
   return (
     <main
       id="Cursus"
@@ -28,7 +28,7 @@ const Cursus = () => {
         <hr className="border-slate-800" />
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="w-full h-auto flex flex-col gap-5  ">
-            <article className="w-full  p-3  flex flex-row max-md:flex-col justify-between rounded-2xl border gap-3
+            <article data-animation="animate-visible-bottom" className=" opacity-0 w-full  p-3  flex flex-row max-md:flex-col justify-between rounded-2xl border gap-3
              border-blue-400 hover:border-blue-500">
                   <div className="w-20 max-md:w-15 max-md:h-15 h-20 p-4 bg-blue-500 rounded-xl flex items-center justify-center">
                   <img src={school} alt="Home" className="size-full" />
@@ -47,7 +47,7 @@ const Cursus = () => {
                          rounded-full text-sm">2023 - 2024</span>
                   </div>
             </article>
-            <article className="w-full  p-3  flex flex-row max-md:flex-col justify-between rounded-2xl border gap-3
+            <article data-animation="animate-visible-bottom" className=" opacity-0 w-full  p-3  flex flex-row max-md:flex-col justify-between rounded-2xl border gap-3
              border-blue-400 hover:border-blue-500">
                   <div className="w-20 max-md:w-15 max-md:h-15 h-20 p-4 bg-blue-500 rounded-xl flex items-center justify-center">
                   <img src={jamboard} alt="Home" className="size-full" />
@@ -66,7 +66,7 @@ const Cursus = () => {
                          rounded-full text-sm">2024 - 2026</span>
                   </div>
             </article>
-            <article className="w-full  p-3  flex flex-row max-md:flex-col justify-between rounded-2xl border gap-3
+            <article data-animation="animate-visible-bottom" className="opacity-0 w-full  p-3  flex flex-row max-md:flex-col justify-between rounded-2xl border gap-3
              border-blue-400 hover:border-blue-500">
                   <div className="w-20 max-md:w-15 max-md:h-15 h-20 p-4 bg-blue-500 rounded-xl flex items-center justify-center">
                   <img src={jamboard} alt="Home" className="size-full" />

@@ -27,7 +27,7 @@
 
   @keyframes load {
     from {
-      opacity: 0.9;
+      opacity: 0.6;
     }
 
     to {
@@ -46,6 +46,51 @@
 
     100% {
       transform : rotate(180deg);
+    }
+  }
+}
+
+@theme {
+  --animate-visible-left: visible-left 2s ease forwards;
+
+  @keyframes visible-left {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+
+@theme {
+  --animate-visible-bottom: visible-bottom 2s ease forwards;
+
+  @keyframes visible-bottom {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@theme {
+  --animate-visible-right: visible-right 2s ease forwards;
+
+  @keyframes visible-right {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
     }
   }
 }

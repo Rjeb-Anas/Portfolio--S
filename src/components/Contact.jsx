@@ -27,22 +27,22 @@ const Contact = () => {
                     <hr className="border-slate-800" />
                     <div className="w-full p-1 flex items-center justify-center">
                                          <div className="md:w-[50%] w-[90%] px-2 py-3 h-auto flex gap-5 flex-wrap justify-center ">
-                                            <a href="" className="flex flex-row py-2 px-3 border items-center gap-3 
+                                            <a data-animation="animate-visible-left" href="" className=" opacity-0 flex flex-row py-2 px-3 border items-center gap-3 
                                             rounded-lg hover:translate-y-1 transition-all min-w-65 ">
                                                 <img  src={alternate_email} alt="Home" className="size-11 bg-blue-500 p-2 rounded-xl" />
                                                 <span className="h-full flex items-center justify-center">anassrjeb929@gmail.com</span>
                                             </a>
-                                            <a href="" className="flex flex-row py-2 px-3 border items-center gap-3 
+                                            <a data-animation="animate-visible-right" href="" className="opacity-0 flex flex-row py-2 px-3 border items-center gap-3 
                                             rounded-lg hover:translate-y-1 transition-all min-w-65 ">
                                                 <img  src={call} alt="Home" className="size-11 bg-blue-500 p-2 rounded-xl" />
                                                 <span className="h-full flex items-center justify-center">+212 665019496</span>
                                             </a> 
-                                            <a href="" className="flex flex-row py-2 px-3 border items-center gap-3 
+                                            <a data-animation="animate-visible-left" href="" className="opacity-0 flex flex-row py-2 px-3 border items-center gap-3 
                                             rounded-lg hover:translate-y-1 transition-all min-w-65 ">
                                                 <img  src={location} alt="Home" className="size-11 bg-blue-500 p-2 rounded-xl" />
                                                 <span className="h-full flex items-center justify-center">Maroc ,Fès</span>
                                             </a> 
-                                            <a href="https://github.com/Rjeb-Anas" target="_blank" className="flex flex-row py-2 px-3 border items-center gap-3 
+                                            <a data-animation="animate-visible-right" href="https://github.com/Rjeb-Anas" target="_blank" className="opacity-0 flex flex-row py-2 px-3 border items-center gap-3 
                                             rounded-lg hover:translate-y-1 transition-all min-w-65 ">
                                                 <img  src={github} alt="Home" className="size-11 bg-blue-500 p-2 rounded-xl" />
                                                 <span className="h-full flex items-center justify-center">github.com/Rjeb-Anas</span>
