@@ -9,7 +9,7 @@ const Home = () => {
         <main className="mx-auto min-h-dvh  w-full flex items-center justify-center
     max-w-7xl px-4 sm:px-6 lg:px-8">
             <section className="flex md:flex-row max-md:flex-col
-             max-md:items-center w-full  gap-6  py-10 relative h-150 ">
+             items-center w-full  gap-6  py-10 relative h-150 ">
                 <div className="md:w-1/2 max-md:h-1/2 h-auto flex flex-col
                  justify-start">
                     <h1 className="text-[clamp(2rem,5vw,3rem)] py-2 w-full text-center font-bold">
@@ -26,8 +26,8 @@ const Home = () => {
                     </p>
                     <div className="w-full flex py-3 flex-col
                     items-center justify-center">
-                        <a href=""
-                            class="group w-12 hover:w-44 h-12 hover:bg-gray-800 relative bg-gray-900 rounded text-neutral-50 duration-700 before:duration-700 font-bold flex justify-start gap-2 items-center p-2 pr-6 before:absolute before:-z-10 before:left-8 before:hover:left-40 before:w-6 before:h-6 before:bg-gray-900 before:hover:bg-gray-800 before:rotate-45"
+                        <a href="https://github.com/Rjeb-Anas" target="_blank"
+                            class="group w-12 hover:w-44 h-12 hover:bg-gray-800 relative  bg-gray-900 rounded text-neutral-50 duration-700 before:duration-700 font-bold flex justify-start gap-2 items-center p-2 pr-6 before:absolute before:-z-10 before:left-8 before:hover:left-40 before:w-6 before:h-6 before:bg-gray-900 before:hover:bg-gray-800 before:rotate-45"
                             >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
